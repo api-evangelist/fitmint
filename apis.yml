@@ -1,7 +1,26 @@
 aid: fitmint
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fitmint.png
 name: Fitmint
-description: Fitmint is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Fitmint is a mobile move-to-earn fitness application from Rabbit Technologies
+  Inc that gamifies everyday walking. Users set daily step goals, level up, open mystery
+  boxes, and earn an in-app currency called $GRIT that can be redeemed for Amazon and
+  other gift cards. The app layers social features such as leaderboards, challenges,
+  and streaks on top of activity tracking to help people build a lifelong habit of
+  walking. Fitmint is a consumer mobile app and does not currently publish a public
+  developer API, SDK, or developer portal; this record is maintained in the API Evangelist
+  network as a company/provider profile and was surfaced as a portfolio company of
+  General Catalyst.
 url: https://raw.githubusercontent.com/api-evangelist/fitmint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fitness
+- Health
+- Wellness
+- Move to Earn
+- Mobile
+- Rewards
+- Gamification
+- Consumer
 apis: []
+common:
+- type: Website
+  url: https://fitmint.io
+- type: Blog
+  url: https://fitmint.io/blog
+- type: PrivacyPolicy
+  url: https://fitmint.io/privacy
+- type: DomainSecurity
+  url: security/fitmint-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
